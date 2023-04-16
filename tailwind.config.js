@@ -13,6 +13,11 @@ module.exports = {
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
     },
+    variants: {
+      extend: {
+        backgroundColor: ['hover'], // enable hover styles for background colors
+      },
+    },
   },
   plugins: [],
 }
